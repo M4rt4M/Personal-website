@@ -1,0 +1,51 @@
+body 
+{
+	width: 100%;	
+	font-family: Georgia;
+	background-color: #ffffff;
+	max-width: 960px;
+    margin: auto;
+}
+
+header 
+{
+  background-color: white;
+  padding: 10px;
+  text-align: left;
+  font-size: 25px;
+  color: black;
+}
+
+footer 
+{
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+p
+{
+   margin: 20px;
+   text-align: justify;
+}
+
+.menu
+{
+  overflow:hidden;
+  background-color:white;
+  
+}
+
+.menu a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+}
