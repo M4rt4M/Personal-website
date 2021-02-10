@@ -28,9 +28,26 @@
 <p>Email: my_email@domain.co.uk</p>
 
 <form action="mailto:someone@example.com">
-    <input type="text" placeholder="Title">
+
 	<br>
-	<input type="text" placeholder="Your message">
+	<label for="academia"> 
+	<input id="academia" value="academia" type="radio" name="topic" checked>Academia 
+	</label>
+
+	<br>
+	<label for="tech"> 
+	<input id="tech" value="tech" type="radio" name="topic">Technology 
+	</label>
+  
+	<br>
+	<label for="other"> 
+	<input id="other" value="other" type="radio" name="topic">Other 
+	</label>
+  
+	<br>
+    <input type="text" placeholder="Title" required>
+	<br>
+	<input type="text" placeholder="Your message" required>
     <button type="submit">Submit</button>
   </form>
 
