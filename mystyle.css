@@ -50,6 +50,3 @@ p
   background-color: white;
 }
 
-.active { background-color: #000; }
-/* to override the existing css for "a" tag */
-#sub-header .active a{ color: #fff; }
