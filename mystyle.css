@@ -50,3 +50,6 @@ p
   background-color: white;
 }
 
+a.activePage {
+    text-decoration:underline;
+}
