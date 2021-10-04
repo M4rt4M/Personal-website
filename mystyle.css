@@ -46,13 +46,12 @@ p
   text-decoration: none;
 }
 
-#menu-decoration {
-	cursor: default;
-}
-
-
 .menu a:hover, .dropdown:hover .dropbtn {
   background-color: white;
+}
+
+#menu-decoration a:hover {
+	cursor: default;
 }
 
 a.activePage {
